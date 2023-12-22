@@ -2,7 +2,7 @@
 
 ### A Origem da Lista
 O frenesi e interesse nos Modelos de Linguagem de Grande Porte (LLMs) após os chatbots pré-treinados do mercado em massa no final de 2022 tem sido notável. Empresas, ansiosas para aproveitar o potencial dos LLMs, estão rapidamente integrando-os em suas operações e ofertas de solução voltadas para os clientes. No entanto, a velocidade vertiginosa com que os LLMs estão sendo adotados superou o estabelecimento de protocolos de segurança abrangentes, deixando muitas aplicações vulneráveis a problemas de alto risco.
-A ausência de um recurso unificado que aborde essas preocupações de segurança nos LLMs era evidente. Desenvolvedores, não familiarizados com os riscos específicos associados aos LLMs, ficaram com recursos dispersos e a missão da OWASP parecia se encaixar perfeitamente para ajudar a promover uma adoção mais segura dessa tecnologia.
+A ausência de um recurso unificado que aborde essas preocupações de segurança nos LLMs era evidente. Desenvolvedores, não familiarizados com os riscos específicos associados aos LLMs, ficaram com recursos dispersos e a missão da OWASP parece se encaixar perfeitamente para ajudar a promover uma adoção mais segura dessa tecnologia.
 
 ### Publico-Alvo?
 Nosso público-alvo é composto por desenvolvedores, cientistas de dados e especialistas em segurança encarregados de projetar e construir aplicativos e plug-ins utilizando as tecnologias LLM. Nosso objetivo é fornecer orientações de segurança práticas, aplicáveis e concisas que ajudem esses profissionais a navegar no complexo terreno da segurança em LLM que está em constante evolução
@@ -14,7 +14,7 @@ Cada uma dessas vulnerabilidades, juntamente com exemplos comuns, dicas de preve
 
 ### Relação com outras Listas OWASP Top 10
 Embora esta lista compartilhe características com tipos de vulnerabilidades encontradas em outras listas OWASP Top 10, não reiteramos simplesmente essas vulnerabilidades. Em vez disso, aprofundamos nas implicações que são únicas à essas vulnerabilidades e a relação que elas têm ao serem encontradas em aplicações que utilizam os LLMs.
-Nosso objetivo é unir os princípios gerais de segurança de aplicativos com os desafios específicos apresentados pelos LLMs. Isso inclui explorar como vulnerabilidades convencionais podem representar riscos diferentes ou serem exploradas de maneiras novas nos LLMs, além de como as estratégias tradicionais de remediação de problemas precisam ser adaptadas para aplicações que utilizam os LLMs.
+Nosso objetivo é unir os princípios gerais de segurança de aplicações com os desafios específicos apresentados pelos LLMs. Isso inclui explorar como vulnerabilidades convencionais podem representar riscos diferentes ou serem exploradas de maneiras novas nos LLMs, além de como as estratégias tradicionais de remediação de problemas precisam ser adaptadas para aplicações que utilizam os LLMs.
 
 ### Sobre a Versão 1.1
 
@@ -32,7 +32,7 @@ OWASP Top 10 para Aplicações de IA LLM
 ## OWASP Top 10 para LLM
 
 ### LLM01: Injeção de Prompt
-Isso manipula o modelo de linguagem de grande porte (LLM) por meio da manipulação de prompt, gerando ações não intencionais pelo LLM. Injeções diretas sobrescrevem prompts do sistema, enquanto as indiretas manipulam entradas de fontes externas para um resultado determinado.
+Essa vulnerabilidade manipula o modelo de linguagem de grande porte (LLM) por meio da manipulação de prompt, gerando ações não intencionais pelo LLM. Injeções diretas sobrescrevem prompts do sistema, enquanto as indiretas manipulam entradas de fontes externas para um resultado determinado.
 ### LLM02: Manipulação Insegura de Output
 Essa vulnerabilidade ocorre quando o output de um LLM é aceito sem ser escrutinado, expondo os sistemas de backend. O uso indevido pode levar a consequências graves, como XSS, CSRF, SSRF, escalonamento de privilégios ou execução remota de código.
 ### LLM03: Envenenamento dos Dados de Treinamento
